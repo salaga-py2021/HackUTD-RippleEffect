@@ -8,8 +8,6 @@
 import Foundation
 
 extension Date {
-    /// Just a simple convenience function
-    /// Takes a date object and uses DateFormatter to return a long style String
     func toString() -> String {
         let df = DateFormatter()
         df.dateStyle = .long
